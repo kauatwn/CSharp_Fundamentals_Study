@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism.ConsoleApp", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractModifier.ConsoleApp", "src\AbstractModifier.ConsoleApp\AbstractModifier.ConsoleApp.csproj", "{9EC016FD-BE76-4761-806E-F3F9CEC134DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface.ConsoleApp", "src\Interface.ConsoleApp\Interface.ConsoleApp.csproj", "{9FD6CF5F-9132-4F5E-A006-E5A3D6B19074}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{9EC016FD-BE76-4761-806E-F3F9CEC134DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EC016FD-BE76-4761-806E-F3F9CEC134DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EC016FD-BE76-4761-806E-F3F9CEC134DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FD6CF5F-9132-4F5E-A006-E5A3D6B19074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD6CF5F-9132-4F5E-A006-E5A3D6B19074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD6CF5F-9132-4F5E-A006-E5A3D6B19074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD6CF5F-9132-4F5E-A006-E5A3D6B19074}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
