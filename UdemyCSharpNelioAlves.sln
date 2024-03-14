@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilder.ConsoleApp", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance.ConsoleApp", "src\Inheritance.ConsoleApp\Inheritance.ConsoleApp.csproj", "{CD855574-A048-4AAC-A8D3-5714098089AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualModifier.ConsoleApp", "src\VirtualModifier.ConsoleApp\VirtualModifier.ConsoleApp.csproj", "{5E46DB32-799E-4223-A502-89A6BDDEED55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{CD855574-A048-4AAC-A8D3-5714098089AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD855574-A048-4AAC-A8D3-5714098089AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD855574-A048-4AAC-A8D3-5714098089AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E46DB32-799E-4223-A502-89A6BDDEED55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E46DB32-799E-4223-A502-89A6BDDEED55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E46DB32-799E-4223-A502-89A6BDDEED55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E46DB32-799E-4223-A502-89A6BDDEED55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
