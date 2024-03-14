@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualModifier.ConsoleApp"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SealedModifier.ConsoleApp", "src\SealedModifier.ConsoleApp\SealedModifier.ConsoleApp.csproj", "{FA0AB5F3-C91A-4914-831E-0BBFCB1BFB8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism.ConsoleApp", "src\Polymorphism.ConsoleApp\Polymorphism.ConsoleApp.csproj", "{80B98AB1-A8EB-43DA-B22F-1847C0992E70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism.ConsoleApp", "src\Polymorphism.ConsoleApp\Polymorphism.ConsoleApp.csproj", "{80B98AB1-A8EB-43DA-B22F-1847C0992E70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractModifier.ConsoleApp", "src\AbstractModifier.ConsoleApp\AbstractModifier.ConsoleApp.csproj", "{9EC016FD-BE76-4761-806E-F3F9CEC134DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{80B98AB1-A8EB-43DA-B22F-1847C0992E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80B98AB1-A8EB-43DA-B22F-1847C0992E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80B98AB1-A8EB-43DA-B22F-1847C0992E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC016FD-BE76-4761-806E-F3F9CEC134DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC016FD-BE76-4761-806E-F3F9CEC134DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC016FD-BE76-4761-806E-F3F9CEC134DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC016FD-BE76-4761-806E-F3F9CEC134DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
