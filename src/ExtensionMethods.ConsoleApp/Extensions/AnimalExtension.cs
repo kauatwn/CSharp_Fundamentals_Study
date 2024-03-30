@@ -12,7 +12,7 @@ namespace ExtensionMethods.ConsoleApp.Extensions
             }
             else if (animal is Cat cat)
             {
-                Console.WriteLine($"Gato: {cat.Name} - Idade: {cat.Age} - Raça: {cat.Outgoing}");
+                Console.WriteLine($"Gato: {cat.Name} - Idade: {cat.Age} - Raça: {cat.Breed}");
             }
         }
     }
