@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractModifier.ConsoleApp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface.ConsoleApp", "src\Interface.ConsoleApp\Interface.ConsoleApp.csproj", "{9FD6CF5F-9132-4F5E-A006-E5A3D6B19074}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics.ConsoleApp", "src\Generics.ConsoleApp\Generics.ConsoleApp.csproj", "{F924D3EE-9D45-4ECD-B885-F15D7D65A849}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics.ConsoleApp", "src\Generics.ConsoleApp\Generics.ConsoleApp.csproj", "{F924D3EE-9D45-4ECD-B885-F15D7D65A849}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternMatching.ConsoleApp", "src\PatternMatching.ConsoleApp\PatternMatching.ConsoleApp.csproj", "{FCEE7D25-96C8-4DDC-B8A6-0D74641DA4B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{F924D3EE-9D45-4ECD-B885-F15D7D65A849}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F924D3EE-9D45-4ECD-B885-F15D7D65A849}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F924D3EE-9D45-4ECD-B885-F15D7D65A849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCEE7D25-96C8-4DDC-B8A6-0D74641DA4B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCEE7D25-96C8-4DDC-B8A6-0D74641DA4B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCEE7D25-96C8-4DDC-B8A6-0D74641DA4B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCEE7D25-96C8-4DDC-B8A6-0D74641DA4B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
