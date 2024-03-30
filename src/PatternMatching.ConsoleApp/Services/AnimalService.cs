@@ -8,11 +8,11 @@ namespace PatternMatching.ConsoleApp.Services
         {
             if (animal is Dog dog)
             {
-                Console.WriteLine($"Cachorro: {dog.Name} - Idade: {dog.Age} - Raça: {dog.Name}");
+                Console.WriteLine($"Cachorro: {dog.Name} - Idade: {dog.Age} - Raça: {dog.Breed}");
             }
             else if (animal is Cat cat)
             {
-                Console.WriteLine($"Gato: {cat.Name} - Idade: {cat.Age} - Raça: {cat.Name}");
+                Console.WriteLine($"Gato: {cat.Name} - Idade: {cat.Age} - Raça: {cat.Outgoing}");
             }
         }
     }
