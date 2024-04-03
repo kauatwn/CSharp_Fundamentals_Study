@@ -1,5 +1,5 @@
 ﻿using Generics.ConsoleApp.Entities;
-using Generics.ConsoleApp.Services;
+using Generics.ConsoleApp.Helpers;
 using System.Globalization;
 
 List<Product> list = [];
@@ -20,5 +20,5 @@ for (int i = 0; i < number; i++)
     list.Add(p);
 }
 
-Product product = CalculationService.FindMaxValue(list);
+Product product = CalculationHelper.FindMaxValue(list);
 Console.WriteLine(product);

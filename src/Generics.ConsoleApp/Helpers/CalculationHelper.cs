@@ -1,10 +1,10 @@
-﻿namespace Generics.ConsoleApp.Services
+﻿namespace Generics.ConsoleApp.Helpers
 {
-    internal class CalculationService
+    internal class CalculationHelper
     {
         // Retorno é um tipo genérico.
         // Há uma restrição em que T deve ser uma classe que implementa IComparable.
-        public static T FindMaxValue<T>(List<T> list) where T : class, IComparable
+        public static T FindMaxValue<T>(List<T> list) where T : class, IComparable<T>
         {
             if (list.Count == 0)
             {

@@ -2,16 +2,13 @@
 
 namespace Generics.ConsoleApp.Entities
 {
-    internal class Product(string name, double price) : IComparable
+    internal class Product(string name, double price) : IComparable<Product>
     {
         public string Name { get; set; } = name;
         public double Price { get; set; } = price;
 
-        public int CompareTo(object? obj)
+        public int CompareTo(Product? other)
         {
-            // Realizando o casting.
-            var other = obj as Product; // var other = (Product) obj;
-
             return Price.CompareTo(other.Price);
         }
 
