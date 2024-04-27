@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortedDictionary.ConsoleApp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaExpression.ConsoleApp", "src\LambdaExpression.ConsoleApp\LambdaExpression.ConsoleApp.csproj", "{EAB1E51A-FAB8-4499-B530-6AA1BD3D1958}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates.ConsoleApp", "src\Delegates.ConsoleApp\Delegates.ConsoleApp.csproj", "{2D2AA2CD-F2A8-4E68-B85A-6AF7A4577862}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates.ConsoleApp", "src\Delegates.ConsoleApp\Delegates.ConsoleApp.csproj", "{2D2AA2CD-F2A8-4E68-B85A-6AF7A4577862}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MulticastDelegates.ConsoleApp", "src\MulticastDelegates.ConsoleApp\MulticastDelegates.ConsoleApp.csproj", "{CD545E94-61F9-423E-BD08-EDCD7E228035}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{2D2AA2CD-F2A8-4E68-B85A-6AF7A4577862}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D2AA2CD-F2A8-4E68-B85A-6AF7A4577862}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D2AA2CD-F2A8-4E68-B85A-6AF7A4577862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD545E94-61F9-423E-BD08-EDCD7E228035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD545E94-61F9-423E-BD08-EDCD7E228035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD545E94-61F9-423E-BD08-EDCD7E228035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD545E94-61F9-423E-BD08-EDCD7E228035}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
