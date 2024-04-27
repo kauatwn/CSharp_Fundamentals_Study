@@ -9,12 +9,17 @@
             return number1 + number2;
         }
 
-        public static double Subtraction(double number1, double number2)
+        public static double Subtract(double number1, double number2)
         {
             return number1 - number2;
         }
 
-        public static double GetLarger(double number1, double number2)
+        public static double Divide(double number1, double number2)
+        {
+            return number1 / number2;
+        }
+
+        public static double GetLargerNumber(double number1, double number2)
         {
             return number1 > number2 ? number1 : number2;
         }
