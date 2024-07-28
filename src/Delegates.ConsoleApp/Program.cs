@@ -1,6 +1,6 @@
 ﻿using Delegates.ConsoleApp.Services;
 
-static double PerformOperation(BinaryOperation binaryOperation, double number1, double number2)
+static double PerformOperation(ArithmeticOperationDelegate binaryOperation, double number1, double number2)
 {
     return binaryOperation(number1, number2);
 }
@@ -14,7 +14,7 @@ Console.WriteLine($"{number1} plus {number2} equals {sumResult}.");
 
 
 // Delegate as variable
-BinaryOperation operation = CalculationService.Subtract;
+ArithmeticOperationDelegate operation = CalculationService.Subtract;
 double subtractionResult = operation(number1, number2);
 Console.WriteLine($"{number1} minus {number2} equals {subtractionResult}.");
 

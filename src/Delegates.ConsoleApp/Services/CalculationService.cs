@@ -1,6 +1,6 @@
 ﻿namespace Delegates.ConsoleApp.Services
 {
-    internal delegate double BinaryOperation(double number1, double number2);
+    internal delegate double ArithmeticOperationDelegate(double number1, double number2);
 
     internal class CalculationService
     {
