@@ -17,6 +17,5 @@ var animal2 = new Cat()
     Outgoing = true
 };
 
-// Downcasting implícito.
 AnimalService.WriteAnimalInfo(animal1);
 AnimalService.WriteAnimalInfo(animal2);
