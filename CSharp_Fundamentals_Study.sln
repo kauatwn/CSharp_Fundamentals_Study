@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.9.34701.34
+VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array.ConsoleApp", "src\Array.ConsoleApp\Array.ConsoleApp.csproj", "{5D11988E-1200-4E78-A5C4-2B1AF03F8612}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B52275A3-D70E-43CE-AC32-B7DD819B705C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{51806F3F-2EEA-4619-BFA7-D857F3E32A79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array", "src\Arrays\Array\Array.csproj", "{5D11988E-1200-4E78-A5C4-2B1AF03F8612}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrixes.ConsoleApp", "src\Matrixes.ConsoleApp\Matrixes.ConsoleApp.csproj", "{E09CD9A8-6ECF-4CC5-9C96-5A68EC6C8292}"
 EndProject
@@ -189,5 +193,9 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BC805B8-4F90-4487-AD20-7647392CEFDB}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51806F3F-2EEA-4619-BFA7-D857F3E32A79} = {B52275A3-D70E-43CE-AC32-B7DD819B705C}
+		{5D11988E-1200-4E78-A5C4-2B1AF03F8612} = {51806F3F-2EEA-4619-BFA7-D857F3E32A79}
 	EndGlobalSection
 EndGlobal
