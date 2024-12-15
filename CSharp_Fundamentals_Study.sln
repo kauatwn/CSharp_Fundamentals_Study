@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array", "src\Arrays\Array\A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrixes", "src\Arrays\Matrixes\Matrixes.csproj", "{E09CD9A8-6ECF-4CC5-9C96-5A68EC6C8292}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "List.ConsoleApp", "src\List.ConsoleApp\List.ConsoleApp.csproj", "{660A3639-BEB7-478B-B949-B27DDF6CDF57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "List", "src\Collections\List\List.csproj", "{660A3639-BEB7-478B-B949-B27DDF6CDF57}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParameterModifiers.ConsoleApp", "src\ParameterModifiers.ConsoleApp\ParameterModifiers.ConsoleApp.csproj", "{35FFE7DF-1D2C-4923-AF4B-7E80F896B4F5}"
 EndProject
@@ -64,6 +64,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchExpression.ConsoleApp", "src\SwitchExpression.ConsoleApp\SwitchExpression.ConsoleApp.csproj", "{CF964F5A-94A2-4A6B-A6A8-884673A420B8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuples.ConsoleApp", "src\Tuples.ConsoleApp\Tuples.ConsoleApp.csproj", "{72BF913C-98AD-4349-AFFD-01F5A9FF1DE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Collections", "Collections", "{207B762A-C5E8-4890-B3B4-336CCBEBDCCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -198,5 +200,7 @@ Global
 		{51806F3F-2EEA-4619-BFA7-D857F3E32A79} = {B52275A3-D70E-43CE-AC32-B7DD819B705C}
 		{5D11988E-1200-4E78-A5C4-2B1AF03F8612} = {51806F3F-2EEA-4619-BFA7-D857F3E32A79}
 		{E09CD9A8-6ECF-4CC5-9C96-5A68EC6C8292} = {51806F3F-2EEA-4619-BFA7-D857F3E32A79}
+		{207B762A-C5E8-4890-B3B4-336CCBEBDCCE} = {B52275A3-D70E-43CE-AC32-B7DD819B705C}
+		{660A3639-BEB7-478B-B949-B27DDF6CDF57} = {207B762A-C5E8-4890-B3B4-336CCBEBDCCE}
 	EndGlobalSection
 EndGlobal
