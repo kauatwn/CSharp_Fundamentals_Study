@@ -1,13 +1,13 @@
-﻿var set = new HashSet<string>
-{
+﻿HashSet<string> set =
+[
     "TV",
     "Notebook",
     "Tablet"
-};
+];
 
 Console.WriteLine(set.Contains("Computer"));
 
-foreach (var item in set)
+foreach (string item in set)
 {
     Console.WriteLine(item);
 }
