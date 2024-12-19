@@ -1,4 +1,4 @@
-﻿var dictionary = new Dictionary<int, string>
+﻿Dictionary<int, string> dictionary = new()
 {
     { 1, "Banana" },
     { 3, "Manga" },
@@ -7,7 +7,7 @@
     { 5, "Maça" }
 };
 
-foreach (var item in dictionary)
+foreach (KeyValuePair<int, string> item in dictionary)
 {
     Console.WriteLine("Chave: {0}, valor: {1}", item.Key, item.Value);
 }
