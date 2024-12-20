@@ -1,11 +1,11 @@
-﻿var sortedDictionary = new SortedDictionary<int, string>
+﻿SortedDictionary<int, string> sortedDictionary = new()
 {
     { 3, "Manga" },
     { 1, "Banana" },
     { 2, "Laranja" }
 };
 
-foreach (var item in sortedDictionary)
+foreach (KeyValuePair<int, string> item in sortedDictionary)
 {
     Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
 }
