@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortedSet", "src\Collection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary", "src\Collections\Dictionary\Dictionary.csproj", "{A8ECEDFF-9E4D-4B4E-8407-5F1DE6445772}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortedDictionary", "src\SortedDictionary\SortedDictionary.csproj", "{DE04CBC0-F1AE-4E74-826D-6A770B30FCD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortedDictionary", "src\Collections\SortedDictionary\SortedDictionary.csproj", "{DE04CBC0-F1AE-4E74-826D-6A770B30FCD0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParameterModifiers.ConsoleApp", "src\ParameterModifiers.ConsoleApp\ParameterModifiers.ConsoleApp.csproj", "{35FFE7DF-1D2C-4923-AF4B-7E80F896B4F5}"
 EndProject
