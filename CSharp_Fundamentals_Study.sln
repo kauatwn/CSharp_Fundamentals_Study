@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashSet", "src\Collections\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortedSet", "src\Collections\SortedSet\SortedSet.csproj", "{55A2CC5B-EEC9-4B90-A4B7-7E10A0E54E36}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary", "src\Dictionary\Dictionary.csproj", "{A8ECEDFF-9E4D-4B4E-8407-5F1DE6445772}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary", "src\Collections\Dictionary\Dictionary.csproj", "{A8ECEDFF-9E4D-4B4E-8407-5F1DE6445772}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortedDictionary", "src\SortedDictionary\SortedDictionary.csproj", "{DE04CBC0-F1AE-4E74-826D-6A770B30FCD0}"
 EndProject
