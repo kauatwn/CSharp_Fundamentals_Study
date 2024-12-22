@@ -1,4 +1,4 @@
-﻿using VirtualModifier.ConsoleApp.Entities;
+﻿using VirtualModifier.Entities;
 
 var acc1 = new Account(1001, "Alex", 500.0);
 Account acc2 = new SavingsAccount(1004, "Anna", 500.0, 0.01);
